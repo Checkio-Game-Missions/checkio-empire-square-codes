@@ -1,5 +1,5 @@
 from checkio_referee import RefereeRank
-from checkio_referee import covercodes
+from checkio_referee import covercodes, representations
 
 import settings
 import settings_env
@@ -15,4 +15,9 @@ class Referee(RefereeRank):
         "python_3": covercodes.py_unwrap_args,
         "python_2": covercodes.py_unwrap_args,
         "javascript": None
+    }
+    CALLED_REPRESENTATIONS = {
+        "python_3": representations.unwrap_arg_representation,
+        "python_2": representations.unwrap_arg_representation,
+        "javascript": representations.unwrap_arg_representation
     }
