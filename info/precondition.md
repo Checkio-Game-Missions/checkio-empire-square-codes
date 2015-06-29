@@ -1,5 +1,3 @@
 **Precondition:**
 
-```python
-???
-```
+`∀ x ∈ lines: 0 ≤ x ≤ 16`
