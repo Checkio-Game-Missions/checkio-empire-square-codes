@@ -602,7 +602,7 @@ TESTS = {
                 [4, 3],
                 [3, 2]
             ],
-            "answer": 1
+            "answer": 2
         },
         {
             "input": [
